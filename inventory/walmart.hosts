@@ -4,6 +4,6 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 
 [tomcatservers]
-3.7.254.73 ansible_user=ec2-user
+172.31.11.74 ansible_user=ec2-user
 
 
