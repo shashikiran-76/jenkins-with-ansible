@@ -1,10 +1,10 @@
 pipeline {
   agent { 
-  label 'ansible'
+  label 'ansiblenodes'
   }
   
   environment {
-   AWS_EC2_PRIVATE_KEY=credentials('ec2-private-key') 
+   AWS_EC2_PRIVATE_KEY=credentials('ec2instance-private-key') 
   }
   
   stages {
